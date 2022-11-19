@@ -1,0 +1,28 @@
+div{
+    height: 70px;
+    width: 70px;
+    border-top: 8px solid rgb(16, 31, 236);
+    border-left: 8px solid rgb(218, 223, 228);
+    border-right: 8px solid rgb(218, 223, 228);
+    border-bottom: 8px solid rgb(218, 223, 228);
+    border-radius: 50%;
+    animation: 0.3s ease-out infinite loader;
+    
+    
+}
+body{
+    border: 2px solid black;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+*{
+    margin: 0px;
+}
+@keyframes loader{
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
